@@ -247,3 +247,4 @@ C:\Users\Leandro\source\repos\ApiDashboardCrawler\ApiDashboardCrawler\obj\Releas
 C:\Users\Leandro\source\repos\ApiDashboardCrawler\ApiDashboardCrawler\obj\Release\net6.0\ApiDashboardCrawler.pdb
 C:\Users\Leandro\source\repos\ApiDashboardCrawler\ApiDashboardCrawler\obj\Release\net6.0\ApiDashboardCrawler.genruntimeconfig.cache
 C:\Users\Leandro\source\repos\ApiDashboardCrawler\ApiDashboardCrawler\obj\Release\net6.0\ref\ApiDashboardCrawler.dll
+C:\Users\Leandro\source\repos\ApiDashboardCrawler\ApiDashboardCrawler\obj\Release\net6.0\ApiDashboardCrawler.sourcelink.json
