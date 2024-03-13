@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ySoBxoqoA2X1/WRvWZtYmRfzQvbV1eKXbx/Nig8EOJw=",
+  "Source": "ApiDashboardCrawler",
+  "BasePath": "_content/ApiDashboardCrawler",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
