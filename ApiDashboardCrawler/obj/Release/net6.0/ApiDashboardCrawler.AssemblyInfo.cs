@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiDashboardCrawler")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b540552857b26cf900a49355a598292c34bb353c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4f04b17866020578469c822bf96ef5eef7cbc022")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiDashboardCrawler")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiDashboardCrawler")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

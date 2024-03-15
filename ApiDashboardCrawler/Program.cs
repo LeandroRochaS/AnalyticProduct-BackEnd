@@ -8,22 +8,22 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<dbbenchdashboardContext>();
 
 
-// Configurar CORS
-builder.Services.AddCors(options =>
-{
-    var corsOrigins = builder.Configuration.GetSection("CorsOrigins").Get<string[]>();
+//// Configurar CORS
+//builder.Services.AddCors(options =>
+//{
+//    var corsOrigins = builder.Configuration.GetSection("CorsOrigins").Get<string[]>();
 
-    options.AddDefaultPolicy(builder =>
-    {
-        foreach (var origin in corsOrigins)
-        {
-            builder.WithOrigins(origin);
-        }
+//    options.AddDefaultPolicy(builder =>
+//    {
+//        foreach (var origin in corsOrigins)
+//        {
+//            builder.WithOrigins(origin);
+//        }
         
-        builder.AllowAnyMethod()
-               .AllowAnyHeader();
-    });
-});
+//        builder.AllowAnyMethod()
+//               .AllowAnyHeader();
+//    });
+//});
 
 
 
@@ -36,8 +36,15 @@ app.UseHttpsRedirection();
 app.UseRouting();
 app.UseAuthorization();
 
-app.UseCors(); // Habilitar CORS
+app.UseCors(policy =>
+{
 
+
+    policy.WithOrigins("*", "http://3.145.53.73:*")
+          .AllowAnyMethod()
+          .AllowAnyOrigin()
+          .AllowAnyHeader();
+});
 app.MapControllers();
 
 app.Run("https://localhost:8080");
